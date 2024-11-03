@@ -1,0 +1,112 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background: linear-gradient(135deg, #F9F1B0, #FFE4C4); /* 增加背景漸層 */
+    color: #333;
+    padding: 20px;
+}
+
+/* 標題樣式 */
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #421364; /* 深紫色標題 */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* 加陰影 */
+}
+
+/* 表格樣式 */
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 80%; /* 更寬的表格 */
+    border: 3px solid #8B4513; /* 咖啡色邊框 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 增加陰影效果 */
+    background-color: #FFF8DC; /* 表格背景淡米色 */
+}
+
+/* 表格標題和儲存格樣式 */
+th, td {
+    border: 2px solid #8B4513;
+    padding: 15px;
+    vertical-align: top;
+    font-size: 18px; /* 調整字體大小 */
+    color: #333;
+}
+
+/* 歌手圖片樣式 */
+.singer img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #B6E4F8;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 增加圖片陰影 */
+}
+
+/* 歌手名字樣式 */
+.singer h2 {
+    margin: 10px 0 0;
+    font-size: 22px;
+    color: #4B0082; /* 深紫色文字 */
+}
+
+/* 歌曲列表樣式 */
+ol {
+    padding-left: 20px;
+    text-align: left;
+}
+
+ol li {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+/* 超連結樣式 */
+a {
+    text-decoration: none;
+    color: #424282; /* 藍色連結 */
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #FF4500; /* 懸停時變為橙紅色 */
+}
+
+/* 頁腳樣式 */
+footer {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #3f270b;
+    background-color: #f7d68c;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 增加頁腳陰影 */
+}
+
+.styled-button {
+    background-color: #9370DB; /* 較淺的紫色背景 */
+    color: #FFFFFF; /* 字體顏色為白色 */
+    border: 2px solid #FFD700; /* 金黃色邊框 */
+    border-radius: 8px; /* 圓角邊框 */
+    padding: 8px 16px; /* 調小內邊距 */
+    font-size: 14px; /* 調整字體大小 */
+    font-weight: bold; /* 粗體字 */
+    cursor: pointer; /* 指針樣式 */
+    transition: background-color 0.3s, color 0.3s; /* 過渡效果 */
+}
+
+/* 懸停效果 */
+.styled-button:hover {
+    background-color: #FFD700; /* 懸停時背景變為金黃色 */
+    color: #9370DB; /* 懸停時字體顏色變為較淺的紫色 */
+}
+
+/* 點擊效果 */
+.styled-button:active {
+    background-color: #B39CD0; /* 點擊時背景變更深的紫色 */
+    border-color: #FFD700; /* 邊框顏色保持 */
+}
+
+
+
